@@ -1,6 +1,6 @@
 # Teste Automatizado com Selenium IDE
 
-Este repositório contém um teste automatizado utilizando o framework Selenium IDE para testar o menu principal do site [4All Tests](https://4alltests.com.br/index).
+Este repositório contém um teste automatizado utilizando o framework Selenium IDE para testar o menu principal do site [4All Tests](https://4alltests.com.br/index). Atividade realizada relativa ao desafio 9 dos 12.
 
 ## Descrição
 
