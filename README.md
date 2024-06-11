@@ -38,7 +38,6 @@ Você pode assistir ao vídeo completo do teste [aqui](https://www.youtube.com/w
 - `teste-menu-principal.side`: Arquivo de projeto do Selenium IDE contendo o script de teste.
 - `README.md`: Este arquivo.
 - `imagens/`: Pasta contendo imagens para demonstração.
-- `videos/`: Pasta contendo o vídeo da execução do teste.
 
 ## Contribuição
 
