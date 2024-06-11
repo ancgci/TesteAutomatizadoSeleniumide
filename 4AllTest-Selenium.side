@@ -1,0 +1,532 @@
+{
+  "id": "7f155274-1820-4b91-baa6-41131698bd25",
+  "version": "2.0",
+  "name": "4AllTest-Selenium",
+  "url": "https://4alltests.com.br",
+  "tests": [{
+    "id": "bc6dd7c2-15c7-40f2-83ee-5b58b17081d2",
+    "name": "Validar_Pagina_Home",
+    "commands": [{
+      "id": "9283b506-49ba-4716-bb1c-5cd5e5ecbdcb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa89ced7-f390-4c65-84f3-f20b6768646d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0598183-ec01-49bd-8f43-b8b409d41a28",
+      "comment": "",
+      "command": "click",
+      "target": "css=#banner > header",
+      "targets": [
+        ["css=#banner > header", "css:finder"],
+        ["xpath=//section[@id='banner']/header", "xpath:idRelative"],
+        ["xpath=//header", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3902beb1-3f99-4a06-82e3-73bcd6123e5b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#banner h2",
+      "targets": [
+        ["css=#banner h2", "css:finder"],
+        ["xpath=//section[@id='banner']/header/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Portal 4ALL Tests')]", "xpath:innerText"]
+      ],
+      "value": "Portal 4ALL Tests"
+    }]
+  }, {
+    "id": "8d3768c8-494a-4373-83e1-46dbf710322e",
+    "name": "Validar_Pagina_Cursos",
+    "commands": [{
+      "id": "e85620ac-e5a7-4ae6-856a-1cd26d066bb6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29909973-81f4-4ebe-a71e-f14b89fe333f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1256x651",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c217d628-0916-413d-8c6c-dca2067b9961",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cursos",
+      "targets": [
+        ["linkText=Cursos", "linkText"],
+        ["css=li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cursos')]", "xpath:link"],
+        ["xpath=//nav[@id='nav']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'cursos')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cursos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7043986-7b95-44dc-930e-8dd2f760d76f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-4 > .box:nth-child(1)",
+      "targets": [
+        ["css=.col-4 > .box:nth-child(1)", "css:finder"],
+        ["xpath=//section[@id='main']/div/div/div/section", "xpath:idRelative"],
+        ["xpath=//div/div/section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cf1f24f-a5a5-4991-947d-d552b3cbb7f3",
+      "comment": "",
+      "command": "click",
+      "target": "id=main",
+      "targets": [
+        ["id=main", "id"],
+        ["css=#main", "css:finder"],
+        ["xpath=//section[@id='main']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/section[2]", "xpath:idRelative"],
+        ["xpath=//section[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75783f2c-65cd-493c-86bf-d0b4958536bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=header:nth-child(2) > h3",
+      "targets": [
+        ["css=header:nth-child(2) > h3", "css:finder"],
+        ["xpath=//section[@id='main']/div/div/div/section/header/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Cursos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00211ba9-b613-4b9c-b3fd-12c1c34fcb75",
+      "comment": "",
+      "command": "click",
+      "target": "css=header:nth-child(2) > h3",
+      "targets": [
+        ["css=header:nth-child(2) > h3", "css:finder"],
+        ["xpath=//section[@id='main']/div/div/div/section/header/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Cursos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6e7c0ff-23b4-4cb6-993b-28840eb23c78",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=header:nth-child(2) > h3",
+      "targets": [
+        ["css=header:nth-child(2) > h3", "css:finder"],
+        ["xpath=//section[@id='main']/div/div/div/section/header/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Cursos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b15ffa5-f877-456d-b296-3831c2746fd7",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=header:nth-child(2) > h3",
+      "targets": [
+        ["css=header:nth-child(2) > h3", "css:finder"],
+        ["xpath=//section[@id='main']/div/div/div/section/header/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Cursos')]", "xpath:innerText"]
+      ],
+      "value": "Cursos"
+    }]
+  }, {
+    "id": "827b9590-c7cc-4f04-a755-2c45a4ebfe02",
+    "name": "Validar_Pagina_Vagas",
+    "commands": [{
+      "id": "55373ad9-5f8c-46ef-a889-430f17afd4e6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b882087-faff-4eeb-91af-30a3ea19a408",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2232c0c-ff1e-404a-8305-033b31e46e06",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Ferramentas",
+      "targets": [
+        ["linkText=Ferramentas", "linkText"],
+        ["css=.opener:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Ferramentas')]", "xpath:link"],
+        ["xpath=//nav[@id='nav']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ferramentas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdf0f53b-da2c-4340-a9ae-d8fe854ad879",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vagas",
+      "targets": [
+        ["linkText=Vagas", "linkText"],
+        ["css=ul:nth-child(1) > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vagas')]", "xpath:link"],
+        ["xpath=//nav[@id='nav']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'vagas')]", "xpath:href"],
+        ["xpath=//nav/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vagas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d5d7425-eaae-4710-ae67-6daaff5531dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=header:nth-child(2) > h3",
+      "targets": [
+        ["css=header:nth-child(2) > h3", "css:finder"],
+        ["xpath=//section[@id='main']/div/div/div/section/header/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Vagas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32be1296-ebe8-4b06-b4ca-33ddf6e742a1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=header:nth-child(2) > h3",
+      "targets": [
+        ["css=header:nth-child(2) > h3", "css:finder"],
+        ["xpath=//section[@id='main']/div/div/div/section/header/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Vagas')]", "xpath:innerText"]
+      ],
+      "value": "Vagas"
+    }]
+  }, {
+    "id": "88c2fe90-97da-48de-947f-94d6be3d8385",
+    "name": "Validar_Pagina_Referências",
+    "commands": [{
+      "id": "4f6f1d98-c751-4d11-adac-68f8b37c4a97",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b93304d4-50aa-4bf7-b6dd-5d1d70d216e5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59663ae0-d3fc-40fc-be2a-61c6aaba61c7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Referências",
+      "targets": [
+        ["linkText=Referências", "linkText"],
+        ["css=li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Referências')]", "xpath:link"],
+        ["xpath=//nav[@id='nav']/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'referencias')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Referências')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fa48475-2781-4c52-8efa-386cd25ed932",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-4 > .box",
+      "targets": [
+        ["css=.col-4 > .box", "css:finder"],
+        ["xpath=//section[@id='main']/div/div/div/section", "xpath:idRelative"],
+        ["xpath=//div/div/section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d0f39b5-7e3b-4c62-ac25-b80c42779f1f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=header > h3",
+      "targets": [
+        ["css=header > h3", "css:finder"],
+        ["xpath=//section[@id='main']/div/div/div/section/header/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Referências')]", "xpath:innerText"]
+      ],
+      "value": "Referências"
+    }]
+  }, {
+    "id": "0ca01193-f7f3-4e09-99ba-99b04a0e0784",
+    "name": "Validar_Pagina_Eventos",
+    "commands": [{
+      "id": "3a54a9f4-7519-4d54-a3fa-e4cd17827427",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0def166b-4c6d-47b5-99c4-42e6d0981160",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af6e89ed-b785-41d6-9ece-a0972b2f5717",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Eventos",
+      "targets": [
+        ["linkText=Eventos", "linkText"],
+        ["css=#nav > ul > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Eventos')]", "xpath:link"],
+        ["xpath=//nav[@id='nav']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'eventos')]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Eventos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9560b48-9fe4-46d6-a8b9-6fc8eff2a650",
+      "comment": "",
+      "command": "click",
+      "target": "css=header:nth-child(2) > h3",
+      "targets": [
+        ["css=header:nth-child(2) > h3", "css:finder"],
+        ["xpath=//section[@id='main']/div/div/div/section/header/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Eventos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3acbc812-66ae-4a85-a99a-93d65da0f607",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=header:nth-child(2) > h3",
+      "targets": [
+        ["css=header:nth-child(2) > h3", "css:finder"],
+        ["xpath=//section[@id='main']/div/div/div/section/header/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Eventos')]", "xpath:innerText"]
+      ],
+      "value": "Eventos"
+    }]
+  }, {
+    "id": "40ab1ad5-32f9-485f-8438-f2de8ad5caa2",
+    "name": "Validar_Pagina_Cumunidades",
+    "commands": [{
+      "id": "cfb88df3-bdde-429d-91b0-a2075ec48220",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "052a7d1b-674f-41c5-99c6-f64bc975677f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1256x651",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8fc9775-a26a-4ea3-81e2-7390fb321b89",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Comunidades",
+      "targets": [
+        ["linkText=Comunidades", "linkText"],
+        ["css=ul:nth-child(1) > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Comunidades')]", "xpath:link"],
+        ["xpath=//nav[@id='nav']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'comunidades')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Comunidades')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ca486fa-1e4c-40d3-a659-5f8cf8116900",
+      "comment": "",
+      "command": "click",
+      "target": "css=header > h3",
+      "targets": [
+        ["css=header > h3", "css:finder"],
+        ["xpath=//section[@id='main']/div/div/div/section/header/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Comunidades')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "900e299a-beb8-4feb-9830-507b002b3f62",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=header > h3",
+      "targets": [
+        ["css=header > h3", "css:finder"],
+        ["xpath=//section[@id='main']/div/div/div/section/header/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Comunidades')]", "xpath:innerText"]
+      ],
+      "value": "Comunidades"
+    }]
+  }, {
+    "id": "8cd94df3-9da1-430b-bbd0-50850ade996b",
+    "name": "Validar_Pagina_Blog",
+    "commands": [{
+      "id": "bce8349b-1263-4829-a9f1-dde8453350cf",
+      "comment": "",
+      "command": "open",
+      "target": "/index",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67b83e42-3ec1-4645-aed8-489961ef8734",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1256x651",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a83a820-fc89-4dba-bbf1-143d85bb0b78",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//nav[@id='nav']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://blog.4alltests.com.br']", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14e10c80-aa6c-4eb9-9bc0-291f49de6bfc",
+      "comment": "",
+      "command": "click",
+      "target": "id=blog",
+      "targets": [
+        ["id=blog", "id"],
+        ["css=#blog", "css:finder"],
+        ["xpath=//div[@id='blog']", "xpath:attributes"],
+        ["xpath=//body/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f5444b5-29bb-4000-b681-85786bd4a6e0",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.section-header > .title",
+      "targets": [
+        ["css=.section-header > .title", "css:finder"],
+        ["xpath=//main[@id='main']/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Recentes')]", "xpath:innerText"]
+      ],
+      "value": "Recentes"
+    }]
+  }, {
+    "id": "8f8b3d32-4004-4cde-a953-ea7b7fe1daa5",
+    "name": "Validar_Radar_Ferramentas_2023",
+    "commands": [{
+      "id": "3ad3d330-67dc-426f-9ab3-4e0c6e49b313",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3db9f1d8-cfff-4829-8fc7-fa62cf5835e2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "403f4cb3-9513-47f3-b877-0c07680de6b0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ferramentas",
+      "targets": [
+        ["linkText=Ferramentas", "linkText"],
+        ["css=.active > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Ferramentas')]", "xpath:link"],
+        ["xpath=//nav[@id='nav']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ferramentas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54ae82b1-d0f0-4143-abec-f5f306658d4f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Radar Ferramentas 2023",
+      "targets": [
+        ["linkText=Radar Ferramentas 2023", "linkText"],
+        ["css=.level-0 > li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Radar Ferramentas 2023')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'ferramentas')])[6]", "xpath:href"],
+        ["xpath=//body/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca34a148-eb62-4291-bd81-e3e7722e3aee",
+      "comment": "",
+      "command": "click",
+      "target": "css=header > h3",
+      "targets": [
+        ["css=header > h3", "css:finder"],
+        ["xpath=//section[@id='main']/div/div/div/section/header/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Ferramentas de Testes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b21f8892-14ca-40f3-8d3e-1bbbd21d036b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=header > h3",
+      "targets": [
+        ["css=header > h3", "css:finder"],
+        ["xpath=//section[@id='main']/div/div/div/section/header/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Ferramentas de Testes')]", "xpath:innerText"]
+      ],
+      "value": "Ferramentas de Testes"
+    }]
+  }],
+  "suites": [{
+    "id": "34a7b5ea-4246-4606-b66a-25afb856f2b5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bc6dd7c2-15c7-40f2-83ee-5b58b17081d2"]
+  }],
+  "urls": ["https://4alltests.com.br/"],
+  "plugins": []
+}
