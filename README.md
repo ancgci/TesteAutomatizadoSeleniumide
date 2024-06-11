@@ -18,7 +18,7 @@ O objetivo deste projeto é automatizar a verificação do funcionamento do menu
 ## Como Rodar o Teste
 
 1. Abra o Selenium IDE no seu navegador.
-2. Importe o arquivo de projeto do Selenium IDE (`teste-menu-principal.side`) localizado neste repositório.
+2. Importe o arquivo de projeto do Selenium IDE (`4AllTest-Selenium.side`) localizado neste repositório.
 3. Clique no botão "Run All Tests" para iniciar o teste automatizado.
 
 O teste navegará automaticamente pelo menu principal do site, verificando se todos os links estão funcionando corretamente.
@@ -27,13 +27,13 @@ O teste navegará automaticamente pelo menu principal do site, verificando se to
 
 ### Imagem
 
-![Demonstração do Teste](./path/to/your/image.png)
+![Demonstração do Teste](./blob/main/Screenshot%202024-06-11%20142849.jpg)
 
 ### Vídeo
 
 [![Vídeo do Teste](./path/to/your/video_thumbnail.png)](./path/to/your/video.mp4)
 
-Você pode assistir ao vídeo completo do teste [aqui](./path/to/your/video.mp4).
+Você pode assistir ao vídeo completo do teste [aqui](https://www.youtube.com/watch?v=A-t7Y4x5J7U)
 
 ## Estrutura do Projeto
 
