@@ -10,7 +10,7 @@ O objetivo deste projeto é automatizar a verificação do funcionamento do menu
 
 1. Clone este repositório em sua máquina local:
     ```sh
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+    git clone https://github.com/ancgci/TesteAutomatizadoSeleniumide
     ```
 
 2. Certifique-se de ter o [Selenium IDE](https://www.selenium.dev/selenium-ide/) instalado no seu navegador. O Selenium IDE está disponível como extensão para os navegadores Chrome e Firefox.
